@@ -1,0 +1,45 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore configuration files
+/wp-config.php
+/wp-config-*.php
+
+# Ignore debugging and caching folders
+/wp-content/debug.log
+/wp-content/advanced-cache.php
+/wp-content/cache/
+/wp-content/uploads/
+
+# Ignore Composer files (if applicable)
+/vendor/
+/composer.phar
+
+# Ignore Node.js stuff (if you're using JavaScript sorcery)
+/node_modules/
+/package-lock.json
+
+# Ignore build tools and temporary files
+Gruntfile.js
+gulpfile.js
+.vscode/
+.sass-cache/
+*.sass-cache/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore version control files
+#/.git
+#.gitignore
+
+# Ignore sensitive stuff (you know the drill)
+wp-config.php
+wp-config-*.php
+
+# If you're into submodules, keep them out of sight
+/submodules/
